@@ -12,10 +12,10 @@ lcd_rows = 2
 lcd_address = 0x27 #The i2c address for the LCD backpack in the IDEA center
 
 # Initialise I2C bus.
-i2c = busio.I2C(board.SCL, board.SDA)
+# i2c = busio.I2C(board.SCL, board.SDA)
 
 # Initialise the lcd class
-lcd = character_lcd.Character_LCD_I2C(i2c, lcd_columns, lcd_rows, False, True, lcd_address)
+# lcd = character_lcd.Character_LCD_I2C(i2c, lcd_columns, lcd_rows, False, True, lcd_address)
 
 
 # For the encoder
